@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-family: "Indie Flower", sans-serif;
+  background-color: #005050;
+  color: beige;
+}
+
+#root {
+  height: 100vh;
+}
+
+.pomodoro {
+  margin-top: 25vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.label {
+  font-size: 2rem;
+}
+
+.numbers {
+  font-size: 3rem;
+}
+
+.top-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.scontrols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.controls {
+  padding: 0 25px;
+}
+
+#break-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#session-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.session-controls {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.timer-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.timer {
+  border: 4px solid gainsboro;
+  border-radius: 4px;
+  width: 50vh;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .label {
+    font-size: 1rem;
+  }
+  .numbers {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=App.css.map */
